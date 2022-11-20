@@ -13,10 +13,9 @@ Run this command to create tables on database and add some data into the table '
 The system will send send a happy birthday message (represented with hitting an api) to users on their birthday at exactly 9 am on their local time.
 
 There are three APIs on the system:
-1. GET /Users
-get all user
+1. GET /Users => get all user
 
-2. POST /user
+2. POST /user => add a user
 example body : {
     "email": "test1@test.com",
     "first_name": "Yoddi",
@@ -25,8 +24,6 @@ example body : {
     "location": "Asia/Jakarta"
 }
 
-add a user
 location format is based on the moment timezone format
 
-3. DELETE /user/:id
-delete a user
+3. DELETE /user/:id   => delete a user
