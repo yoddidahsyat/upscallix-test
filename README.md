@@ -9,7 +9,6 @@ Create a database named 'upscallix'.
 Run this command to create tables on database and add some data into the table 'user'.
 
     cd config
-
     node migration.js
 
 
