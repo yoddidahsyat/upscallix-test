@@ -18,7 +18,7 @@ The system will send send a happy birthday message (represented with hitting an 
 
 There are three APIs on the system:
 
-1. GET /Users => get all user
+1. GET /users => get all user
 
 2. POST /user => add a user
 
